@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum DOM dan Event</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<h1 id="judul">Latihan DOM</h1>
+<p id="pesan">Belum ada tindakan.</p>
+<button id="tombolAksi">Klik Saya</button>
+
+<hr>
+<h2>Latihan 3 - Mengubah Gaya</h2>
+<p id="teksGaya">Ini contoh perubahan tampilan teks.</p>
+<button id="tombolGaya">Ubah Gaya</button>
+
+<hr>
+<h2>Latihan 4 - Penghitung Karakter</h2>
+<label>Nama:</label>
+<input type="text" id="namaInput" maxlength="40">
+<p>Jumlah karakter: <span id="jumlahKarakter">0</span></p>
+
+<hr>
+<h2>Latihan 5 - Form Pendaftaran</h2>
+<form id="formPendaftaran" novalidate>
+    <label>Nama lengkap</label>
+    <input id="nama" type="text">
+    <label>Email</label>
+    <input id="email" type="email">
+    <label>Usia</label>
+    <input id="usia" type="number">
+    <button type="submit">Daftar</button>
+</form>
+<p id="pesanForm"></p>
+
+<hr>
+<h2>Latihan 6 - Daftar Tugas</h2>
+<input id="inputTugas" type="text" placeholder="Masukkan tugas">
+<button id="tambahTugas">Tambah</button>
+<p id="pesanTugas"></p>
+<ul id="daftarTugas"></ul>
+
+<hr>
+<h2>Mini Project - Form Workshop</h2>
+<form id="formWorkshop" novalidate>
+    <label>Nama peserta</label>
+    <input id="namaWorkshop" type="text">
+
+    <label>Email peserta</label>
+    <input id="emailWorkshop" type="email">
+
+    <label>Pilih sesi workshop</label>
+    <select id="sesiWorkshop">
+        <option value="">Pilih Sesi</option>
+        <option value="Pagi">Pagi</option>
+        <option value="Siang">Siang</option>
+        <option value="Sore">Sore</option>
+    </select>
+
+    <p id="jumlahNama">Jumlah karakter: 0</p>
+    <p id="pilihanSesi">Belum memilih sesi.</p>
+    <p id="pesanWorkshop"></p>
+
+    <button type="submit">Daftar Workshop</button>
+    <button type="reset">Reset</button>
+</form>
+
+</body>
+</html>
